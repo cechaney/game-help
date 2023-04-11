@@ -1,0 +1,19 @@
+
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#questionArea{
+    display: none;
+}
+
+#scoreArea{
+    display: none;
+}
+
+.answerOption{
+    display: inline;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: hotpink;
+}

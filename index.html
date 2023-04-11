@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz Time</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+</head>
+
+<body>
+    <h1>Quiz Time!</h1>
+
+    <ul>
+        <li>You have 60 seconds to finish the quiz</li>
+        <li>Select your answer by clicking on it</li>
+        <li>Each correct answer is worth 1 point</li>
+        <li>Wrong answers deduct 5 seconds from your remaining time.</li>
+    </ul>
+
+    <button id="startButton">Start!</button>
+
+    <div id="questionArea">
+        
+        <div id="timerArea"></div>
+        
+        <h2 id="questionText"></h2>
+        
+        <div id="answerOptionArea">
+            <div id="answerOption1" class="answerOption"></div>
+            <div id="answerOption2" class="answerOption"></div>
+            <div id="answerOption3" class="answerOption"></div>
+            <div id="answerOption4" class="answerOption"></div>
+        </div>
+
+    </div>
+
+    <div id="scoreArea">
+        <h1>Your Score: <a id="scoreCountArea"></a></h1>
+        <div>
+            <form>
+                <label for="nameText">Name:</label>
+                <input type="text" id="nameText" name="nameText">
+                <button id="saveScoreButton">Save</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
